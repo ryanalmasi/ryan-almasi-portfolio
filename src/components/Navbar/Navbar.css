@@ -1,7 +1,7 @@
 nav {
     display: flex;
     position: fixed;
-    background: rgba(100, 100, 100, 0.75);
+    background: rgba(0, 0, 0, 0.35);
     padding: 0.7rem 2rem;
     transform: translateX(-50%);
     bottom: 3.5rem;
@@ -16,16 +16,21 @@ nav a {
     padding: 0.9rem;
     border-radius: 100%;
     display: flex;
-    color: var(--color-light);
+    color: var(--color-white);
     font-size: 1.2rem;
 }
 
 nav a:hover {
     background: rgba(184, 184, 184, 0.95);
+    color: var(--color-black);
 } 
 
 
 nav a.active {
     background: rgba(184, 184, 184, 0.95);
-    color: var(--color-white);
+    color: var(--color-black);
+}
+
+.icons {
+    color: white;
 }

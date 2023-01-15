@@ -7,16 +7,16 @@ const Navbar = () => {
   return (
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}> 
-        <AiOutlineHome/> 
+        <AiOutlineHome className='icon'/> 
       </a> 
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}> 
-        <AiOutlineUser/> 
+        <AiOutlineUser className='icon'/> 
       </a>
       <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}> 
-        <AiOutlineBook/> 
+        <AiOutlineBook className='icon'/> 
       </a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> 
-        <AiOutlineMail/> 
+        <AiOutlineMail className='icon'/> 
       </a>
     </nav>
   )
