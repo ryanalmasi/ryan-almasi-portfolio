@@ -1,6 +1,6 @@
 header {
   color: white;
-  padding: 5% 0 70%;
+  padding: 10% 0 40%;
 }
 
 .header-cont h1, .header-cont h2, .header-cont h3 {
@@ -15,15 +15,24 @@ header {
 
 .header-cont h2 {
   font-family: 'Inter Thin';
-  font-size: 110%;
+  font-size: 115%;
 }
 
 .header-cont h3 {
   font-family: 'Josefin';
   font-size: 135%;
+  padding-bottom: 0.5%;
 }
 
-.CTA, .socials{
+.header-cont p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter Thin';
+  font-size: 105%;
+
+}
+
+.CTA {
   margin-top: 2.5rem;
   display: flex;
   justify-content: center;
@@ -40,10 +49,19 @@ header {
   padding: 0.6rem 1.9rem;
 }
 
-.socials .socials-btn {
+.socials {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
-  font-family: 'Roboto Condensed';
-  padding: 0.6rem 1.9rem;
-  font-size: 85%;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials-el {
+  color: white;
+  font-size: 120%;
+}
+
+.socials-el:hover {
+  color: goldenrod;
 }

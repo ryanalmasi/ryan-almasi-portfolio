@@ -15,6 +15,7 @@ const Home = () => {
                 </div>
                 <h3> &lt; /&gt; </h3>
                 <h2> Software Engineering Co-op Student at the University of Alberta </h2>
+                <p>A second year software engineer on the path to reinventing machine learning and artificial intelligence.</p>
                 <CTA />
                 <Socials />
             </div>

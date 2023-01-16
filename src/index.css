@@ -57,7 +57,7 @@ body {
   #fb009b
   );
   animation: AnimateBG 10s ease infinite;
-  background-size: 100%;
+  background-size: 150%;
 }
 
 a {
