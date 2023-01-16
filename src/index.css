@@ -1,13 +1,99 @@
+@font-face {
+  font-family: 'Inter Thin';
+  src: url(./Assets/Fonts/Inter/static/Inter-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url(./Assets/Fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'M PLUS';
+  src: url(./Assets/Fonts/M_PLUS_1p/MPLUS1p-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(./Assets/Fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Josefin';
+  src: url(./Assets/Fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+
 :root {
   --color-white: white;
   --color-black: black;
+  --background-color: #280C08;
+  --background-color-variant: #3C2554;
+  --primary-color: goldenrod;
+  --primary-color-variant: #FFBD97;
+  --color-light: #ffffff99;
+  --transition: all 400ms ease; 
+  --container-width-large: 75%;
+  --container-width-medium: 86% ;
+  --container-width-small: 90%;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
-  background: linear-gradient(45deg, #032444, #02234D, #030d2b, #000000, #0e0404, #430f50 );
-  animation: movinggradient 5s ease infinite;
-  background-size: 200%;
+  background: linear-gradient(-70deg, #120137,
+  #17084d,
+  #210c66,
+  #2b0d7c,
+  #6210a5,
+  #8a0eaf,
+  #a110ce,
+  #da08cf,
+  #fb009b
+  );
+  animation: AnimateBG 10s ease infinite;
+  background-size: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
 
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 2.5rem;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--background-color);
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  color: var(--color-white);
+  border-color: transparent;
+}
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}

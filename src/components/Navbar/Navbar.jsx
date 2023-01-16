@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineMail } from 'react-icons/ai'
-import './Navbar.css'
+import './Navbar.scss'
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState('#')
