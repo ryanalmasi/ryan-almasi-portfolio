@@ -7,7 +7,7 @@ import Socials from './Socials'
 const Home = () => {
     return (
         <header id='header'>
-            <div className='container header-cont'>
+            <div className='header-cont'>
                 <div className='intro'>
                     <h1 className='logo-header'>
                         <span className='logo'>&apos; RYAN</span><span className='logo'>&nbsp;ALMASI &apos;</span>
