@@ -1,3 +1,7 @@
+#about {
+    padding-bottom: 30%;
+}
+
 .about-h1 {
     display: flex;
     justify-content: center;
@@ -22,25 +26,34 @@
 
 .container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    position: relative;
+    grid-template-columns: 25.5% 50%;
+    gap: 15;
 }
 
 
-.about_img {
-    width: 100%;
-    aspect-ratio: 1/1;
+.container img {
+    position: relative;
+    width: 350%;
     border-radius: 2rem;
-    display: grid;
-    place-items: center;
+    margin-top: -9rem;
+    margin-left: 16rem;
+    overflow: hidden;
+    transform: rotate(-20deg);
+    transition: var(--transition)
+}
+
+.container img:hover {
+    transform: rotate(0);
 }
 
 .about-cards {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin-top: -70%;
-    margin-right: 5%;
+    padding-bottom: 4%;
+    margin-top: -50%;
+    margin-right: 1%;
 }
 
 .about-card {
@@ -52,6 +65,15 @@
     transition: var(--transition);
     backdrop-filter: blur(20px);
 }
+
+.about-cont_content .about-card-academic {
+    padding: 2rem 0.75rem;
+}
+
+.about-cont_content .about-card-coop {
+    padding: 2rem 0.5rem;
+}
+
 
 .about-card:hover {
     background: transparent;
@@ -70,13 +92,33 @@
     color: var(--color-white)
 }
 
-.about-cont p {
-    margin: 2rem;
+.paragraph-1 {
+    font-family: 'Roboto Condensed';
+    font-size: 110%;
+    margin: -28.5% 5% 17% 50%;
+    text-align: justify;
+    color: white;
+}
+
+.paragraph-2 {
+    color: rgb(201, 201, 201);
+    font-family: 'Roboto Condensed';
+    font-size: 110%;
+    margin: -15% 5% 17% 50%;
+    text-align: justify;
+}
+
+.paragraph-3 {
+    color: rgb(160, 160, 160);
+    font-family: 'Roboto Condensed';
+    font-size: 110%;
+    margin: -15% 5% 17% 50%;
+    text-align: justify;
 }
 
 /* tablet */
 @media screen and (max-width: 1024px) {
-    .about__container {
+    .about-cont {
         grid-template-columns: 1fr;
         gap: 0;
     }

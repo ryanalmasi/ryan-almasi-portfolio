@@ -33,6 +33,11 @@
   src: url(./Assets/Fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url(./Assets/Fonts/Inter/static/Inter-Regular.ttf);
+}
+
 :root {
   --color-white: white;
   --color-black: black;
