@@ -14,8 +14,18 @@
 }
 
 @font-face {
+  font-family: 'M PLUS REG';
+  src: url(./Assets/Fonts/M_PLUS_1p/MPLUS1p-Regular.ttf);
+}
+
+@font-face {
   font-family: 'Roboto Mono';
   src: url(./Assets/Fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Mono Reg';
+  src: url(./Assets/Fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
 }
 
 @font-face {
@@ -27,9 +37,9 @@
   --color-white: white;
   --color-black: black;
   --background-color: #280C08;
-  --background-color-variant: #3C2554;
+  --background-color-variant: #57043b;
   --primary-color: goldenrod;
-  --primary-color-variant: #fa9c66;
+  --primary-color-variant: #b6017081;
   --color-light: #ffffff99;
   --transition: all 400ms ease; 
   --container-width-large: 75%;

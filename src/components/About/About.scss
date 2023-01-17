@@ -1,19 +1,25 @@
-<<<<<<< HEAD
-=======
-.about-header {
-    padding-bottom: 12.5%;
-} 
-
->>>>>>> 3ffa01c7965c2b8246c691f25d6069fcf65adae8
 .about-h1 {
     display: flex;
     justify-content: center;
-    color: var(--primary-color-variant);
+    color: var(--primary-color);
     font-family: 'Josefin';
     font-size: 350%;
 }
 
-<<<<<<< HEAD
+.about-h3 {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-family: 'Josefin';
+    font-size: 125%;
+    padding-bottom: 2%;
+}
+
+.about-h2 {
+    font-family: 'Roboto Mono Reg';
+    font-weight: bold;
+}
+
 .container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -34,24 +40,17 @@
     justify-content: center;
     gap: 1.5rem;
     margin-top: -70%;
-    margin-right: 100%;
-}
-
-.about-cards .about-card-academic {
-    padding: 2rem 1.65rem;
-}
-
-.about-cards .about-card-coop {
-    padding: 2rem 3rem;
+    margin-right: 5%;
 }
 
 .about-card {
     background: var(--primary-color-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem 1rem;
+    border-radius: 2rem;
+    padding: 2rem 1.5rem;
     text-align: center;
     transition: var(--transition);
+    backdrop-filter: blur(20px);
 }
 
 .about-card:hover {
@@ -66,8 +65,9 @@
 }
 
 .about-card small {
-    font-size: 0.7rem;
-    color: var(--color-light)
+    font-family: 'Inter Thin';
+    font-size: 0.85rem;
+    color: var(--color-white)
 }
 
 .about-cont p {
@@ -116,12 +116,3 @@
         margin: 1.5rem 0;
     }
 }
-=======
-.about-h3 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Josefin';
-    font-size: 125%;
-}
-
->>>>>>> 3ffa01c7965c2b8246c691f25d6069fcf65adae8
