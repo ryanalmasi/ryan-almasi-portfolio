@@ -1,5 +1,11 @@
 #about {
+    padding-top: 5%;
     padding-bottom: 30%;
+}
+
+.about-header {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .about-h1 {
@@ -15,7 +21,7 @@
     justify-content: center;
     color: var(--primary-color);
     font-family: 'Josefin';
-    font-size: 125%;
+    font-size: 135%;
     padding-bottom: 2%;
 }
 
@@ -24,27 +30,25 @@
     font-weight: bold;
 }
 
-.container {
-    display: grid;
-    position: relative;
-    grid-template-columns: 25.5% 50%;
-    gap: 15;
+.about-cont-footer {
+    display: flex;
 }
 
 
-.container img {
+.about-cont {
+    margin-left: 10rem;
+}
+
+.about_img img {
     position: relative;
-    width: 350%;
+    width: 110%;
     border-radius: 2rem;
-    margin-top: -9rem;
-    margin-left: 16rem;
     overflow: hidden;
-    transform: rotate(-20deg);
     transition: var(--transition)
 }
 
 .container img:hover {
-    transform: rotate(0);
+    transform: scale(1.1);
 }
 
 .about-cards {
@@ -52,7 +56,6 @@
     justify-content: center;
     gap: 1.5rem;
     padding-bottom: 4%;
-    margin-top: -50%;
     margin-right: 1%;
 }
 
@@ -70,10 +73,9 @@
     padding: 2rem 0.75rem;
 }
 
-.about-cont_content .about-card-coop {
-    padding: 2rem 0.5rem;
+.about-cont_content .about-card-experience {
+    padding: 2rem 3rem;
 }
-
 
 .about-card:hover {
     background: transparent;
@@ -92,27 +94,30 @@
     color: var(--color-white)
 }
 
+.paragraph-cont {
+    margin-left: 15rem;
+    margin-right: 5rem;
+    margin-top: 2.5rem;
+}
+
 .paragraph-1 {
-    font-family: 'Roboto Condensed';
+    font-family: 'Inter Thin';
     font-size: 110%;
-    margin: -28.5% 5% 17% 50%;
     text-align: justify;
     color: white;
 }
 
 .paragraph-2 {
-    color: rgb(201, 201, 201);
-    font-family: 'Roboto Condensed';
+    color: rgb(228, 228, 228);
+    font-family: 'Inter Thin';
     font-size: 110%;
-    margin: -15% 5% 17% 50%;
     text-align: justify;
 }
 
 .paragraph-3 {
-    color: rgb(160, 160, 160);
-    font-family: 'Roboto Condensed';
+    color: rgb(204, 204, 204);
+    font-family: 'Inter Thin';
     font-size: 110%;
-    margin: -15% 5% 17% 50%;
     text-align: justify;
 }
 
