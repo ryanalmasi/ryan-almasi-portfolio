@@ -1,11 +1,12 @@
 #projects {
     padding-top: 5%;
-    padding-bottom: 100%;
+    padding-bottom: 60%;
 }
 
 .projects-header {
     font-family: 'Josefin';
     color: var(--primary-color);
+    margin-bottom: 5%;
 }
 
 .projects-header h1 {
@@ -18,4 +19,68 @@
     display: flex;
     justify-content: center;
     font-size: 135%;
+}
+
+.portfolio-cont {
+    display: grid;
+    justify-content: center;
+    padding: 5rem 22.5rem;
+    gap: 2%;
+}
+
+.potrfolio-item h3, .portfolio-item-cta {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'M PLUS REG';
+    font-weight: bold;
+    font-size: 200%;
+    color: var(--color-light);
+}
+
+.portfolio-item {
+    background: var(--primary-color-variant);
+    opacity: 90%;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 2.5rem 5rem;
+    text-align: center;
+    transition: var(--transition);
+    backdrop-filter: blur(20px);
+}
+
+.portfolio-img img {
+    width: 90%;
+    opacity: 120%;
+    padding-top: 1rem;
+    border-radius: 2rem;
+}
+
+.portfolio-item-cta {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.portfolio-btn {
+    font-family: 'Roboto Condensed';
+    border-color: var(--color-light);
+    color: var(--color-light);
+}
+
+.portfolio-h4 {
+    font-family: 'Inter Thin';
+    color: white;
+    text-align: center;
+}
+
+.portfolio-btn:hover {
+    background-color: var(--color-light);
+}
+
+.portfolio-item:hover{
+    transform: scale(1.05);
 }

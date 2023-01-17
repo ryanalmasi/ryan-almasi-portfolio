@@ -1,0 +1,38 @@
+#contact {
+    padding-top: 5%;
+    padding-bottom: 70%;
+}
+
+.contact-header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin';
+    font-size: 350%;
+    color: var(--primary-color);
+}
+
+.contact-header h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin';
+    font-size: 135%;
+    color: var(--primary-color);
+    padding-bottom: 2.5%;
+}
+
+.contact-h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter Thin';
+    font-size: 175%;
+    color: var(--color-light)
+}
+
+.contact-h4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter Thin';
+    font-size: 175%;
+    color: var(--color-light)
+}
