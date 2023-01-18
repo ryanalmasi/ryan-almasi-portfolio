@@ -17,7 +17,7 @@
     font-family: 'Josefin';
     font-size: 135%;
     color: var(--primary-color);
-    padding-bottom: 2.5%;
+    padding-bottom: 5%;
 }
 
 .contact-h3 {
@@ -35,4 +35,20 @@
     font-family: 'Inter Thin';
     font-size: 175%;
     color: var(--color-light)
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.contact-cards h3, .contact-cards h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content .contact-icon {
+    display: flex;
+    justify-content: center;
 }
