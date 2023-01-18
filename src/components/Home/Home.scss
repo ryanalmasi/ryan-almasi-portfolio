@@ -43,6 +43,8 @@ header {
 .CTA a {
   font-family: 'Roboto Condensed';
   font-size: 85%;
+  color: var(--color-light);
+  border-color: var(--color-light);
 }
 
 .CTA .resume-el {
@@ -63,5 +65,5 @@ header {
 }
 
 .socials-el:hover {
-  color: goldenrod;
+  color: var(--color-light);
 }

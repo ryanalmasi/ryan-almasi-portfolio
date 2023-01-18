@@ -38,6 +38,11 @@
   src: url(./Assets/Fonts/Inter/static/Inter-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Roboto Condensed Light';
+  src: url(./Assets/Fonts/Roboto_Condensed/RobotoCondensed-Light.ttf);
+}
+
 :root {
   --color-white: white;
   --color-black: black;
@@ -48,7 +53,7 @@
   --color-light: #ffffff99;
   --transition: all 400ms ease; 
   --container-width-large: 75%;
-  --container-width-medium: 86% ;
+  --container-width-medium: 86%;
   --container-width-small: 90%;
 }
 
@@ -82,7 +87,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--primary-color-variant);
 }
 
 .btn {
@@ -102,7 +107,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--primary-color);
+  background: var(--color-light);
   color: var(--color-white);
   border-color: transparent;
 }

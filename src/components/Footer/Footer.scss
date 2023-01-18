@@ -1,0 +1,44 @@
+footer {
+    background-color: var(--primary-color-variant);
+    opacity: 90%;
+    padding: 4rem 0rem;
+    margin: -0.5rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    gap: 25%;
+}
+
+.footer-h1 {
+    font-family: 'Roboto Condensed Light';
+    color: var(--color-light);
+    opacity: 90%;
+    margin-top: 3%;
+}
+
+.links {
+    list-style: none;
+}
+
+.links-container a {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.links .footer-title {
+    font-family: 'Roboto Condensed';
+    color: white;
+    font-size: 150%;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+}
+
+.links li {
+    font-family: 'Inter Thin';
+    font-size: 110%;
+    padding-bottom: 10%;
+}

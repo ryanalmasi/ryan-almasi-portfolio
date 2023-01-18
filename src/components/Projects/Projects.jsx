@@ -84,7 +84,7 @@ const Projects = () => {
                                 <h3 className="portfolio-h3">This Website</h3>
                                 <h4 className="portfolio-h4">
                                     Personal full-stack website created as a portfolio. Created using the ReactJS and NodeJS framework
-                                    integrated with HTML and CSS.
+                                    integrated with HTML, CSS, and SCSS styling.
                                 </h4>
                                 <div className="portfolio-img">
                                     <img src={website} alt='' />

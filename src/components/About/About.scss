@@ -27,7 +27,7 @@
 
 .about-h2 {
     font-family: 'Roboto Mono';
-    color: var(--color-light);
+    color: white;
     font-weight: bold;
 }
 
@@ -87,6 +87,7 @@
 .about-icon {
     font-size: 1.4rem;
     margin-bottom: 0.4rem;
+    color: var(--color-light)
 }
 
 .about-card small {

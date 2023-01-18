@@ -1,6 +1,6 @@
 #contact {
     padding-top: 5%;
-    padding-bottom: 70%;
+    padding-bottom: 40%;
 }
 
 .contact-header h1 {
@@ -24,31 +24,98 @@
     display: flex;
     justify-content: center;
     font-family: 'Inter Thin';
-    font-size: 175%;
-    color: var(--color-light)
+    font-size: 150%;
+    color: white;
 }
 
 .contact-h4 {
-    align-items: center;
     display: flex;
     justify-content: center;
     font-family: 'Inter Thin';
-    font-size: 175%;
+    font-size: 100%;
     color: var(--color-light)
+}
+
+.contact-h5 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed Light';
+    font-size: 150%;
+    color: var(--color-light);
+}
+
+.contact-h6 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed Light';
+    font-size: 125%;
+    color: rgba(165, 165, 165, 0.808);
 }
 
 .contact-content {
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
+    padding-bottom: 2.5rem;;
 }
 
-.contact-cards h3, .contact-cards h4 {
+.contact-icon {
+    color: var(--color-light);
+    font-size: 150%;
+}
+
+.contact-btn {
+    font-family: 'Roboto Condensed';
+    color: var(--color-light);
+    border-color: var(--color-light);
+}
+
+.contact-btn:hover {
+    background-color: var(--color-light);
+}
+
+.contact-cards {
+    background: var(--primary-color-variant);
+    opacity: 90%;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 2.5rem 5rem;
+    text-align: center;
+    transition: var(--transition);
+    backdrop-filter: blur(20px);
+}
+
+.contact-cards:hover {
+    background: transparent;
+    border-color: var(--primary-color);
+    cursor: default;
+}
+
+.contact-github {
+    padding: 2.5rem 6.05rem;
+}
+
+.contact-form-container {
     display: flex;
     justify-content: center;
 }
 
-.contact-content .contact-icon {
+form {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 1.3rem;
+    width: 60%;
+}
+
+input, textarea {
+    font-family: 'Roboto Condensed';
+    font-size: 115%;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-light);
+    resize: none;
+    color: white;
 }
